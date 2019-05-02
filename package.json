@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm run build && node dist/bin/www",
+    "start": "node dist/bin/www",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "tslint -p ."
